@@ -14,6 +14,14 @@ public class Products {
 		this.price = price;
 		this.amount = amount;
 	}
+	public Products(int productId, String name, String type, int price, int amount) {
+		super();
+		this.productId = productId;
+		this.name = name;
+		this.type = type;
+		this.price = price;
+		this.amount = amount;
+	}
 	public int getProductId() {
 		return productId;
 	}
